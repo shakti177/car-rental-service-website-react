@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 75px;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.nav_button button{
+    padding: 15px 35px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
