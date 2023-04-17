@@ -1,0 +1,26 @@
+#faq_section{
+    display: flex;
+    flex-direction: column;
+    padding: 110px 10px;
+}
+
+.faq_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.faq_title h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.faq_title h2{
+    font-size: 45px;
+}
+
+.faq_title p{
+    color: var(--text-color);
+}
+

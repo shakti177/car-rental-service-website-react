@@ -5,6 +5,8 @@ import Filterbox from '../Components/Home/Filterbox/Filterbox'
 import Hero from '../Components/Home/Hero/Hero'
 import Service from '../Components/Home/Service/Service'
 import Testimonials from '../Components/Home/Testimonials/Testimonials'
+import Downloads from '../Components/Home/Download/Download'
+import FAQ from '../Components/Home/FAQ/FAQ'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <Banner/>
         <Details/>
         <Testimonials/>
+        <FAQ/>
+        <Downloads/>
     </div>
   )
 }
