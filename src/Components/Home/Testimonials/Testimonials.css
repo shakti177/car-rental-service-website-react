@@ -1,0 +1,27 @@
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    padding: 110px 10px;
+    background-color: #F8F8F8;
+}
+
+.testimonials_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.testimonials_title h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.testimonials_title h2{
+    font-size: 45px;
+}
+
+.testimonials_title p{
+    color: var(--text-color);
+}
+
