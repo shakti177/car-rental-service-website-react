@@ -1,0 +1,44 @@
+#service{
+    padding: 100px 80px;
+}
+
+.service_title{
+    text-align: center;
+}
+
+.service_title h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.service_title h2{
+    font-size: 45px;
+}
+
+.service_box{
+    display: flex;
+    padding: 80px 10px;
+}
+
+.service_boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 60px;   
+    gap: 7px;
+}
+
+.service_boxes h3{
+    font-size: 25px;
+}
+
+.service_boxes p{
+    color: var(--text-color);
+}
+
+.service_boxes img {
+    height: 150px;
+    width: 150px;
+  }
