@@ -4,6 +4,7 @@ import aboutimg from "../../../Assets/about_main.jpg";
 import icon1 from "../../../Assets/about_main-1.png";
 import icon2 from "../../../Assets/about_main-2.png";
 import icon3 from "../../../Assets/about_main-3.png";
+import Service from "../../Home/Service/Service";
 
 const Aboutsection = () => {
   return (
@@ -81,6 +82,11 @@ const Aboutsection = () => {
           </div>
         </div>
       </div>
+      
+      {/* Service section */}
+
+      <Service/>
+
     </section>
   );
 };
