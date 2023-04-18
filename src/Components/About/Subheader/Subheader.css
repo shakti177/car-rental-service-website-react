@@ -1,0 +1,33 @@
+#subheader {
+  padding: 100px 75px;
+  background-image: url("../../../Assets/subhero.png");
+  position: relative;
+}
+
+#subheader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: hsla(0,0%,100%,.92);
+}
+
+#subheader h3 {
+  font-size: 40px;
+}
+
+#subheader p {
+  font-weight: 600;
+}
+
+#subheader a {
+  text-decoration: none;
+  color: black;
+}
+
+#subheader a:hover {
+  color: var(--main-color);
+  transition: 0.5s;
+}
