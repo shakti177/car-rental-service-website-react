@@ -35,7 +35,12 @@
     transition: 0.5s;
 }
 
-.menu ul li:hover{
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu a:hover{
     color: var(--main-color);
     cursor: pointer;
     transition: 0.5s;

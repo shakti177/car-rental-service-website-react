@@ -11,19 +11,19 @@ import Vehicle from './Pages/Vehicle';
 function App() {
   return (
     <div className="App">
-      <Header />
+      
       <BrowserRouter>
+      <Header/>
         <Routes>
-          <Route>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/team" element={<Team/>} />
             <Route path="/vehicle" element={<Vehicle/>} />
-          </Route>
         </Routes>
+        <Footer/>
       </BrowserRouter>
-      <Footer />
+      
     </div>
   );
 }

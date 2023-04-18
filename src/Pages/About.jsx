@@ -1,8 +1,11 @@
 import React from 'react'
+import Subhearder from '../Components/About/Subheader/Subhearder';
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Subhearder/>
+    </div>
   )
 }
 
