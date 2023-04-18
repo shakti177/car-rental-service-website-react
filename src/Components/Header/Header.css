@@ -28,3 +28,15 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+.nav_button button:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    transition: 0.5s;
+}
+
+.menu ul li:hover{
+    color: var(--main-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
