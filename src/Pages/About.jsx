@@ -1,5 +1,6 @@
 import React from 'react'
 import Aboutsection from '../Components/About/AboutSection/Aboutsection';
+import Aboutbanner from '../Components/About/Aboutbanner/About_banner';
 import Subhearder from '../Components/About/Subheader/Subhearder';
 
 const About = () => {
@@ -7,6 +8,7 @@ const About = () => {
     <div>
       <Subhearder/>
       <Aboutsection/>
+      <Aboutbanner/>
     </div>
   )
 }
