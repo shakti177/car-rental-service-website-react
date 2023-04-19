@@ -1,5 +1,5 @@
 import React from "react";
-import "./About_banner.css";
+import "./Aboutbanner.css";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 const About_banner = () => {

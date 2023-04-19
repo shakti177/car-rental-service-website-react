@@ -1,6 +1,6 @@
 import React from 'react'
 import Aboutsection from '../Components/About/AboutSection/Aboutsection';
-import Aboutbanner from '../Components/About/Aboutbanner/About_banner';
+import Aboutbanner from '../Components/About/Aboutbanner/Aboutbanner';
 import Subhearder from '../Components/About/Subheader/Subhearder';
 
 const About = () => {
