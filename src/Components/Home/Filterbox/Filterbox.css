@@ -65,10 +65,10 @@
 }
 
 .filterbox_button {
-    background-color: var(--main-color);
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    justify-content: center;
-    margin-top: 35px;
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  justify-content: center;
+  margin-top: 35px;
 }
