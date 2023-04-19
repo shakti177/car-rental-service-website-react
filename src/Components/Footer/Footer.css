@@ -51,6 +51,11 @@
     margin-bottom: 6px;
 }
 
+.section_content li:hover{
+    color: var(--main-color);
+    transition: 0.5s;
+}
+
 /* section 4 */
 
 .section_content4 li:first-child {

@@ -24,7 +24,7 @@ const Footer = () => {
           <li>
             <IoMdMail /> randommail@gmail.com
           </li>
-          <li>Design by XpeedStudio</li>
+          <li>Design by Shakti Tamrakar</li>
         </ul>
       </div>
       {/* section 2 */}
