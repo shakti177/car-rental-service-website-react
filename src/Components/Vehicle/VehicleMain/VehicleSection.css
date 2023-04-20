@@ -1,0 +1,126 @@
+#vehicle_main {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 170px;
+  gap: 50px;
+}
+
+.vehicle_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vehicle_card{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    border: 1px solid #d5d5d5;
+    padding-bottom: 15px;
+}
+
+.vehicle_card_img img{
+    width: 100%;
+    height: 270px;
+}
+
+.vehicle_card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.vehicle_card_cardescription{
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    padding-top: 15px;
+}
+
+.Vehicle_card_cardescription-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rating-icon{
+    color: #F9C933;
+}
+
+.name p{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Vehicle_card_cardescription-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.price h4{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.days p{
+    font-weight: 500;
+}
+
+.Vehicle_cartype{
+    display: flex;
+    gap: 100px;
+}
+
+.Vehicle_cartype-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.car-name p,
+.car-type p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.car-rating p,
+.car-fuel p{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.Vechicle_cartype-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vehicle_card hr{
+    width: 300px;
+}
+
+.vehicle_card button{
+    width: 90%;
+    padding: 20px 10px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    cursor: pointer;
+}
+
+.vehicle_card button:hover{
+    box-shadow: 0 10px 15px 0 rgba(255, 82, 48, 0.674);
+    transition: 0.3s;
+}

@@ -6,8 +6,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from './Pages/Contact';
 import Team from './Pages/Team';
-import Vehicle from './Pages/Vehicle';
 import Testimonials from './Pages/Testimonials';
+import Vehicle from './Pages/Vehicle'
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/team" element={<Team/>} />
-            <Route path="/vehicle" element={<Vehicle/>} />
             <Route path="/testimonials" element={<Testimonials/>} />
+            <Route path="/Vehicle" element={<Vehicle/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
