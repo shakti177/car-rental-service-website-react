@@ -1,0 +1,44 @@
+#team{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 170px;
+    gap: 50px;
+}
+
+.team_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_member{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f6f6f6;
+    box-shadow: 0 20px 10px 0 rgba(0,0,0,.08);
+}
+
+.team_member:hover{
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+
+.team_member_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.team_member_img img{
+    width: 100%;
+}
+
+.team_member_description h3{
+    font-size: 25px;
+}
+
+.team_member_description p{
+    color: var(--text-color);
+}
