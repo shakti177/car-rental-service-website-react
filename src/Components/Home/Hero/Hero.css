@@ -59,7 +59,3 @@
     color: #fff;
     box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
 }
-
-.button_row button:first-child{
-    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
-}
